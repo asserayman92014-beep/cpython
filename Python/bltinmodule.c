@@ -2296,7 +2296,7 @@ builtin_pow_impl(PyObject *module, PyObject *base, PyObject *exp,
 }
 
 /*[clinic input]
-printpy as builtin_print
+print as builtin_print
 
     *objects: array
     sep: object(c_default="Py_None") = ' '
